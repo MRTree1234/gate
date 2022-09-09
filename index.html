@@ -8,7 +8,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="application-name" content="进出校模拟">
     <meta name="apple-mobile-web-app-title" content="进出校模拟">
-    <meta name="msapplication-starturl" content="https://calm-rock-039f93a00.1.azurestaticapps.net/">
     <meta name="theme-color" content="#2196F3" />
     <script type="text/javascript">
         if (navigator.serviceWorker != null) {
@@ -303,19 +302,19 @@
                 }
                 if (document.getElementById("gate").value == "1") {
                     window.location.href = 'main.html';
-                    localStorage.setItem('whigate', 'east_enter.html');
+                    localStorage.setItem('whigate', 'ineast.html');
                 }
                 if (document.getElementById("gate").value == "2") {
                     window.location.href = 'main.html';
-                    localStorage.setItem('whigate', 'east_leave.html');
+                    localStorage.setItem('whigate', 'outeast.html');
                 }
                 if (document.getElementById("gate").value == "3") {
                     window.location.href = 'main.html';
-                    localStorage.setItem('whigate', 'west_enter.html');
+                    localStorage.setItem('whigate', 'inwest.html');
                 }
                 if (document.getElementById("gate").value == "4") {
                     window.location.href = 'main.html';
-                    localStorage.setItem('whigate', 'west_leave.html');
+                    localStorage.setItem('whigate', 'outwest.html');
                 }
                 alert("使用方法：点击主页下方“扫一扫”按钮，扫描任意二维码即可进入验证界面。");
             }
